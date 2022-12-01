@@ -14,5 +14,5 @@ Here is the short description on files in this repository:
 Important notes:
 - Before running the codes it is essential to make the CDF C library to be properly installed. The guidelines for downloading and installation the CDF library could be find in this link:  http://cdf.gsfc.nasa.gov/
 - To download the data files visit: http://themis.ssl.berkeley.edu/data/themis/tha/l2/fgm/2016/ (or paste the url to 'downloading data.py' )
-- Metadata is provided in the following link: http://themis.ssl.berkeley.edu/var_desc.shtml
+- Metadata is provided in the following link: http://themis.ssl.berkeley.edu/var_desc.shtml. It guides through the library structure of the files.
 - The scripts were made to be run independently and functions are nested inside the code. 
