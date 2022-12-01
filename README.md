@@ -10,3 +10,9 @@ Here is the short description on files in this repository:
 - 'Plasma_injection_model.py' is Python script for processing and entering libraries of '.cdf' data files, entering time period where the plasma injection is (once identified), interpolating data for different measurement instruments (they have different sampling rate), implying governing equations for the calculations and visualise the data in terms of time-dependent plots. This model shows the processing of plasma injection event that happened in Jan 3, 2016 <6.40 - 7.40>
 - 'magnetic_field_Jan_03_2016.mlx' is MATLAB script to draw magnetic lines for the chosen event using pre-processed data from 'Plasma_injection_model.py' and implying governing equations to solve ODE. The script also includes the routine and function to accurately perform solving ODE and discretizing the coordinates of magnetic field lines in -x and -z axis
 - 'magnetic_field_lines.py' is python analogue for ODE function to discretize the coordinates of magnetic field lines 
+
+Important notes:
+- Before running the codes it is essential to make the CDF C library to be properly installed. The guidelines for downloading and installation the CDF library could be find in this link:  http://cdf.gsfc.nasa.gov/
+- To download the data files visit: http://themis.ssl.berkeley.edu/data/themis/tha/l2/fgm/2016/ (or paste the url to 'downloading data.py' )
+- Metadata is provided in the following link: http://themis.ssl.berkeley.edu/var_desc.shtml
+- The scripts were made to be run independently and functions are nested inside the code. 
